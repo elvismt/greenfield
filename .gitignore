@@ -1,0 +1,10 @@
+build/
+build/*
+node_modules/
+node_modules/*
+__pycache__/
+__pycache__/*
+*.pyc
+.directory
+*.swp
+
