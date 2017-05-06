@@ -12,10 +12,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-"use strict";
 
-const webpack = require('webpack');
+import '../style/main.scss';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-module.exports = {
-
+class App extends Component {
+    render() {
+        return ('ello greenfield');
+    }
 }
+
+export default App;
+ReactDOM.render(<App />, document.getElementById('approot'));
